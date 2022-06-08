@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'lato', sans-serif;
+}
+
+/* generic  */
+a {
+    text-decoration: none;
+
+}
+
+nav {
+    display: block;
+}
+
+.white {
+    color: #fff;
+}
+
+/* end of generic */
+
+/* sidebar */
+
+.sidebar {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    z-index: 2;
+    width: 25%;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    background-color: rgba(0, 125, 155,.8);
+}
+
+.sidebar-inner {
+    position: relative;
+    height: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    padding: 45px 40px;
+}
+
+.my-avatar-wrapped{
+    text-align: center;
+    color: #fff;
+}
+
+.my-avatar {
+    border-radius: 50%;
+    margin-bottom: 10px
+}
+
+.avatar {
+    width: 152px;
+    height: 152px;
+    border-radius: 50%;
+}
+
+.my-content {
+    margin-left: -40px;
+    margin-right: -40px;
+}
+
+.my-title {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.my-subtitle {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2.5px;
+}
+
+.main-navigation {
+    margin: 45px -40px;
+    line-height: 30px;
+    position: relative;
+    font-size: 14px;
+}
+
+.navigation-wrapped ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation-wrapped ul>li {
+    display: block;
+}
+
+.navigation-wrapped ul li {
+    position: relative;
+    padding: 0 40px;   
+}
+
+.navigation-wrapped ul li a {
+    color: rgba(255,255,255,.6);
+    display: block;   
+    font-size: 1rem;
+}
+
+.navigation-wrapped ul li a:hover {
+    color: #fff;
+    transition: all .5s;
+}
+
+.social-block {
+    font-size: 30px;
+    margin-top: 45px;
+}
+
+.social-title {
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(255,255,255,.5);
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.social-content a {
+    color: rgba(255,255,255,.6);
+    transition: all .5s;
+}
+
+.social-content a:hover {
+    color: #fff;
+}
+
+
+
+    
