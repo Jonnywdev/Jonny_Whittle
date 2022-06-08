@@ -136,6 +136,10 @@ nav {
     color: #fff;
 }
 
+/* end of sidebar */
+
+/* home page content */
+
 .site-is-wrapped {
     margin-left: 25%;
 }
@@ -190,4 +194,69 @@ nav {
     text-transform: none;
 }
 
+/* end of home-page */
+
+
+
+
+
+/* Responsiveness */
+@media (max-width: 1000px) {
+    /* sidebar */
+    .sidebar {
+        padding-top: 0;
+    }
+
+    .sidebar-inner {
+        overflow: initial;
+        height: auto;
+        padding: 0 40px;
+    }
+
+    .my-avatar-wrapped {
+        display: none;
+    }
+
+    .main-navigation {
+        font-size: 14px;
+        text-transform: uppercase;
+        line-height: 50px;
+        text-align: right;
+        margin: 20px -40px 0;
+    }
+
+    .navigation-wrapped {
+        display: block;
+    }
+
+}
+
+@media (max-width: 900px) {
     
+}
+
+@media (max-width: 800px) {
+    
+}
+
+@media (max-width: 700px) {
+    
+}
+
+@media (max-width: 600px) {
+    
+}
+
+@media (max-width: 500px) {
+    
+}
+
+@media (max-width: 400px) {
+    
+}
+
+@media (max-width: 300px) {
+    
+}
+
+/* End of Responsiveness */
