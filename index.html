@@ -47,10 +47,89 @@
             </div>
         </div>
     </aside>
+
+    <!-- Smaller screens -->
+    <aside class="sidebar-small">
+            <!-- Navigation -->
+            <nav class="main-navigation">
+                <div class="navigation-wrapped">
+                    <ul>
+                        <li><a href="#">PORTFOLIO</a></li>
+                        <li><a href="#">CV</a></li>
+                        <li><a href="#">CONTACT ME</a></li>
+                    </ul>
+                </div>  
+            </nav>
+            <!-- Contact section -->
+            <div class="social-block">
+                <div class="social-title">Get in touch</div>
+                <div class="social-content">
+                    <a href="#"><i class="fa-solid fa-square-envelope"></i></a>
+                    <a href="#"><i class="fa fa-github-square"></i></a>
+                    <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                    <a href="#"><i class="fa-solid fa-square-phone"></i></a>
+                    <a href="#"><i class="fa fa-facebook-square"></i></a>
+                </div>
+            </div>
+    </aside>
+    <!-- mobile screens -->
+
+    <aside class="sidebar-mobile">
+        <div class="sidebar-inner">
+            <nav class="main-navigation">
+                <div class="sidebar-extendable">
+
+                    <!-- Contact section -->
+                    <div class="navigation-extended">
+                        
+                        
+                        <div class="social-block">
+                            <div class="social-title">Get in touch</div>
+                            <div class="social-content">
+                                <a href="#"><i class="fa-solid fa-square-envelope"></i></a>
+                                <a href="#"><i class="fa fa-github-square"></i></a>
+                                <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                                <a href="#"><i class="fa-solid fa-square-phone"></i></a>
+                                <a href="#"><i class="fa fa-facebook-square"></i></a>
+                            </div>
+                        </div>
+
+                        <button href="#" class="navigation-button" onclick="extendNavigation()">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
+
+                    <!-- Navigation -->
+                    <div class="extend-nav" id="extended-navigation">
+                        <div class="navigation-wrapped">
+                            <ul>
+                                <li><a href="#">PORTFOLIO</a></li>
+                                <li><a href="#">CV</a></li>
+                                <li><a href="#">CONTACT ME</a></li>
+                            </ul>
+                        </div> 
+                    </div>
+                
+                    
+                </div>      
+            </nav>
+        </div>
+    </aside>
+
+
     <div class="site-is-wrapped">
         <div class="site-inner">
             <div class="home-section">
                 <div class="home-section-inner">
+                    <a href="index.html" class="my-avatar-wrapped">
+                        <div class="my-avatar">
+                            <img src="assets/images/avatar.jpeg" alt="me" class="avatar">
+                        </div>
+                        <div class="my-content">
+                            <h1 class="my-title">Jonny Whittle</h1>
+                            <h2 class="my-subtitle">FRONT-END DEVELOPER</h2>
+                        </div>
+                    </a>
                     <div class="home-heading">Hi, I'm Jonny,</div>
                     <h2 class="home-subheading">
                         a freelance front-end developer working 
@@ -63,6 +142,14 @@
             </div>
         </div>
 
+        
+
     </div>
+    <script>
+        function extend() {
+        var element = document.getElementById("extended-navigation");
+        element.classList.add("show-nav");
+        }
+    </script>
 </body>
 </html>
