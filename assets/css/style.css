@@ -19,6 +19,8 @@ nav {
     color: #fff;
 }
 
+
+
 .sidebar-small {
     display: none;
 }
@@ -27,6 +29,9 @@ nav {
     display: none;
 }
 
+.avatar-small {
+    display: none;
+}
 /* end of generic */
 
 /* sidebar */
@@ -205,6 +210,10 @@ nav {
 
 /* end of home-page */
 
+/* start of portfolio */
+
+/* end of portfolio */
+
 
 
 
@@ -353,6 +362,10 @@ nav {
     .home-subheading {
         font-size: 1.8rem;
     }
+
+    .avatar-small {
+        display: block;
+    }
     
 }
 
@@ -390,6 +403,8 @@ nav {
 
     .social-block {
         font-size: 18px;
+        width: 50%;
+        justify-content: flex-start;
     }    
 
     .social-content a {
@@ -405,7 +420,7 @@ nav {
 
     .main-navigation a:focus, .main-navigation a:hover {
         color: #fff;
-        width: 50%;
+        width: 100%;
     }
 
     .navigation-wrapped ul {
@@ -414,6 +429,7 @@ nav {
         justify-content: center;
         text-align: center;
         align-items: center;
+        padding-top: 50px;        
     }
 
     .main-navigation {
@@ -450,23 +466,65 @@ nav {
         display: none;
     }
 
-    .show-nav {
-        height: 300px;
-        display: block;
-    }
-
     .main-navigation ul li {
         padding: 0 20px;
     }
 
+    .show-nav {
+        height: 300px;
+        display: block;
+        -webkit-transition: height .5s;
+        transition: height .5s;
+    }
+
+    .navigation-wrapped ul li a {
+        font-size: 1.5rem;
+        padding-bottom: 10px;
+    }
+
+    /* home */
+    .headings-wrapped {
+        padding-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-heading {
+        font-size: 2.5rem;
+    }
+
+    .home-subheading {
+        font-size: 1.2rem;
+    }
 
 }
 
 @media (max-width: 400px) {
+
+    /* home section */
+    .home-section-inner {
+        margin-top: 43%;
+    }
+
+    .headings-wrapped {
+        padding-top: 6rem;
+    }
+
     
 }
 
 @media (max-width: 300px) {
+
+    /* home page */
+    .home-subheading {
+        font-size: 1rem;
+    }
+
+    .headings-wrapped {
+        padding-top: 9rem;
+    }
     
 }
 
