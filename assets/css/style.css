@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'lato', sans-serif;
-    background: #f6f6f6;
+    background: #cccdce;
 }
 
 /* generic  */
@@ -20,7 +20,6 @@ nav {
 }
 
 
-
 .sidebar-small {
     display: none;
 }
@@ -31,6 +30,20 @@ nav {
 
 .avatar-small {
     display: none;
+}
+
+.g-h-s-title {
+    position: relative;
+    margin: 10% 4%;
+}
+
+.g-h-s-title h1 {
+    font-size: 3rem;
+}
+
+.g-h-s-title h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 /* end of generic */
 
@@ -211,6 +224,113 @@ nav {
 /* end of home-page */
 
 /* start of portfolio */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: auto auto auto auto;
+    padding: 20px 0;
+    margin: 0 4%;
+}
+
+.work-card {
+    background: green;
+    height: 15rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.work-card img {
+    width: 100%;
+    position: relative;
+    transition: all 2.5s;
+    opacity: 100%;
+}
+
+.work-card img:hover {
+    opacity: o;
+}
+
+
+
+.work-card-content {
+    padding: 2%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all .5s;
+    width: 26.9%;
+    height: 16%;
+    background: #cccdce;
+    cursor: pointer;
+}
+
+.work-card-content h1 {
+    font-size: 2rem;
+}
+
+.work-card-content a {
+    color: #000;
+    font-size: 1.4rem;
+    padding: 5% 10%;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+.status {
+    display: flex;
+    flex-direction: row;
+}
+
+.status h3 {
+    padding-right: 5px;
+
+}
+
+.active {
+    color: green;
+    text-transform: uppercase;
+}
+
+.in-progress {
+    color: #b77a00;
+    text-transform: uppercase;
+}
+
+.in-active {
+    color: red;
+    text-transform: uppercase;
+}
+
+
+.work-card-content:hover {
+    opacity: 100%;
+}
+
+/* card id */
+#leigh-fest {
+    background: #2dabe3;
+}
+
+#mozz {
+    background: #1f1e20;
+}
+
+#ar, #brain {
+    background: #000;
+}
+
+#ava {
+    background: #353535;
+}
+
+#love_maths {
+    background: #b2b2b2;
+}
 
 /* end of portfolio */
 
