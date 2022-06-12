@@ -19,7 +19,6 @@ nav {
     color: #fff;
 }
 
-
 .sidebar-small {
     display: none;
 }
@@ -34,7 +33,7 @@ nav {
 
 .g-h-s-title {
     position: relative;
-    margin: 10% 4%;
+    margin: 5% 4%;
 }
 
 .g-h-s-title h1 {
@@ -267,10 +266,12 @@ nav {
     height: 16%;
     background: #cccdce;
     cursor: pointer;
+    z-index: 10;
 }
 
 .work-card-content h1 {
     font-size: 2rem;
+    text-align: center;
 }
 
 .work-card-content a {
@@ -320,7 +321,7 @@ nav {
     background: #1f1e20;
 }
 
-#ar, #brain {
+#ar, #brain, #club {
     background: #000;
 }
 
@@ -330,6 +331,18 @@ nav {
 
 #love_maths {
     background: #b2b2b2;
+}
+
+#lloyds {
+    background: #186c30;
+}
+
+#customasks {
+    background: #fff;
+}
+
+#nhs {
+    background: #2a5ca7;
 }
 
 /* end of portfolio */
@@ -345,6 +358,7 @@ nav {
         padding-top: 0;
         width: 100%;
         height: fit-content;
+        position: relative;
     }
 
     .sidebar-inner {
@@ -398,6 +412,23 @@ nav {
         text-align: center;
     }
 
+    /* portfolio */
+
+    .site-is-wrapped {
+        margin: 0;
+    }
+
+    .site-is-wrapped::before {
+        width: 100%;
+    }
+
+    .site-inner {
+        background: #cccdce;
+        width: 100%;
+        position: absolute;
+    }
+
+
 
 }
 
@@ -427,6 +458,15 @@ nav {
     .home-section-inner {
         margin-top: 45%;
     }
+
+    /* portfolio */
+    .g-h-s-title h1 {
+        font-size: 2rem;
+    }
+
+    .g-h-s-title h2 {
+        font-size: 1.25rem;
+    }
     
 }
 
@@ -448,7 +488,6 @@ nav {
         top: 0;
         bottom: 0;
         left: 0;
-        position: fixed;
         z-index: 2;
         width: 100%;
         height: fit-content;
@@ -459,7 +498,8 @@ nav {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        align-items: baseline;    
+        align-items: baseline; 
+        position: relative;   
     }
 
     .main-navigation {
@@ -486,7 +526,21 @@ nav {
     .avatar-small {
         display: block;
     }
+
+    /* portfolio */
+    .g-h-s-title h1 {
+        font-size: 1.8rem;
+    }
     
+    .portfolio-grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }    
+    
+    .work-card-content {
+        width: 42%;
+        height: 15%;
+    }
 }
 
 @media (max-width: 500px) {
@@ -632,7 +686,15 @@ nav {
         padding-top: 6rem;
     }
 
-    
+    /* portfolio */
+    .portfolio-grid {
+        grid-template-columns: 100%;
+    }
+
+    .work-card-content {
+        width: 90%;
+        height: 8.5%;
+    }
 }
 
 @media (max-width: 300px) {
