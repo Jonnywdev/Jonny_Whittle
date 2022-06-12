@@ -351,38 +351,31 @@ nav {
 /* start of contact */
 .contact-wrapped {
     margin: 0 4%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-items: center;
 }
 
-.contact-form {
-    width: 65%;
-    height: fit-content;
-    background: #fff;
+.contact-wrapped a {
+    color: #fff;
+    transition: all .5s;
+}
+
+.contact-wrapped a i {
+    font-size: 8rem;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 5px 10px 18px #888888;
 }
 
-.contact {
-    width: 30%;
-    height: 10rem;
-    background: #fff;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 5px 10px 18px #888888;
+.contact-wrapped a:hover {
+    color: #000;
 }
 
-.form-wrapped {
-    padding: 2%;
+.contact-content {
+
 }
 
-form input {
-    background: #cccdce;
-    width: 98%;
-    border: 1px solid #707070;
-}
+
 /* end of contact */
 
 
@@ -463,6 +456,10 @@ form input {
         position: absolute;
     }
 
+    /* contact */
+    .contact-wrapped {
+        margin: 0 4% 8% 4%;
+    }
 
 
 }
@@ -575,6 +572,11 @@ form input {
     .work-card-content {
         width: 42%;
         height: 15%;
+    }
+
+    /* contact */
+    .contact-wrapped a i {
+        font-size: 6rem;
     }
 }
 
@@ -729,6 +731,16 @@ form input {
     .work-card-content {
         width: 90%;
         height: 8.5%;
+    }
+
+    /* contact */
+    .contact-wrapped a i {
+        font-size: 4rem;
+        border-radius: 0;
+    }
+
+    .contact-wrapped a i {
+        font-size: 3rem;
     }
 }
 
