@@ -348,7 +348,42 @@ nav {
 /* end of portfolio */
 
 
+/* start of contact */
+.contact-wrapped {
+    margin: 0 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.contact-form {
+    width: 65%;
+    height: fit-content;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.contact {
+    width: 30%;
+    height: 10rem;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.form-wrapped {
+    padding: 2%;
+}
+
+form input {
+    background: #cccdce;
+    width: 98%;
+    border: 1px solid #707070;
+}
+/* end of contact */
 
 
 /* Responsiveness */
