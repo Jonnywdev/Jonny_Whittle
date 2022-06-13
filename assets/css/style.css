@@ -538,18 +538,21 @@ nav {
 .cv-header {
     background: #2a2a36;
     width: 100%;
-    position: absolute;
-    padding: 2% 4%;
+    position: relative;
     z-index: 2;
 }
 
-.cv-header h1 {
+.cv-header-wrapped {
+    padding: 2% 4%;
+}
+
+.cv-header-wrapped  h1 {
     color: #fff;
     font-size: 3rem;
     margin-bottom: 10px;
 }
 
-.cv-header h2 {
+.cv-header-wrapped  h2 {
     color: #cccdce;
     font-size: 1.5rem;
     font-weight: 300;
@@ -566,7 +569,7 @@ nav {
     height: fit-content;
     z-index: 1;
     position: relative;
-    top: 13rem;
+    top: 0;
 }
 
 .content-wrapper {
@@ -591,10 +594,10 @@ nav {
 .cv-details-content {
     width: 30%;
     background: #a5a5a5;
-    height: 100vh;
+    height: fit-content;
     z-index: 1;
     position: relative;
-    top: 13rem;
+    top: 0;
 }
 
 /* end of cv */
