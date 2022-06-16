@@ -703,21 +703,8 @@ nav {
     }
 
     /* Home page */
-    .home-section {
-        padding-left: 0;
-    }
 
-    .home-section-inner {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        max-width: 100%;
-        margin-left: 0;
-        margin-top: 37%;
-    }
-
-    .home-subheading {
+    .g-h-s-title-one {
         text-align: center;
     }
 
@@ -762,6 +749,14 @@ nav {
 
     .home-subheading {
         font-size: 1.5rem;
+    }
+
+    .g-h-s-title-one h1 {
+        font-size: 2rem;
+    }
+
+    .g-h-s-title-one h2 {
+        font-size: 1.25rem;
     }
     
 }
@@ -849,16 +844,8 @@ nav {
     }
 
     /* homepage */
-    .home-section-inner {
-        margin-top: 15%;
-    }
-
-    .home-heading {
-        font-size: 3rem;
-    }
-
-    .home-subheading {
-        font-size: 1.8rem;
+    .recent-image-gallery {
+        column-count: 4;
     }
 
     .avatar-small {
@@ -1017,21 +1004,11 @@ nav {
     }
 
     /* home */
-    .headings-wrapped {
-        padding-top: 3rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .recent-image-gallery {
+        column-count: 3;
     }
 
-    .home-heading {
-        font-size: 2.5rem;
-    }
-
-    .home-subheading {
-        font-size: 1.2rem;
-    }
+    
 
     /* cv */
     .cv-header-wrapped h1 {
@@ -1060,12 +1037,27 @@ nav {
 @media (max-width: 400px) {
 
     /* home section */
-    .home-section-inner {
-        margin-top: 43%;
+    .recent-image-gallery {
+        column-count: 2;
     }
 
-    .headings-wrapped {
-        padding-top: 6rem;
+    .g-h-s-title-one h1 {
+        font-size: 1.75rem;
+        margin-top: 3rem;
+    }
+
+    .g-h-s-title-one h2 {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+
+    .recent-image {
+        margin-bottom: 2rem;
+    }
+
+    .gallery-header {
+        font-size: 1.5rem;
+        font-weight: 600;
     }
 
     /* portfolio */
@@ -1100,14 +1092,13 @@ nav {
 @media (max-width: 300px) {
 
     /* home page */
-    .home-subheading {
-        font-size: 1rem;
-    }
-
-    .headings-wrapped {
-        padding-top: 9rem;
+    .gallery-header {
+        font-size: 1.25rem;
     }
     
+    .recent-image-gallery {
+        column-count: 1;
+    }
 }
 
 /* End of Responsiveness */
