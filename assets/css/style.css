@@ -53,6 +53,12 @@ nav {
     font-size: 1.5rem;
     font-weight: 300;
 }
+
+.seccond-header {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: none;
+}
 /* end of generic */
 
 /* sidebar */
@@ -373,7 +379,7 @@ nav {
 }
 
 .contact-wrapped a {
-    color: #fff;
+    color: #353535;
     transition: all .5s;
 }
 
@@ -658,6 +664,25 @@ nav {
 }
 
 /* end of cv */
+
+/* work pages */
+.work-wrapped {
+    padding: 0 5%;
+}
+
+.work-images-wrapped {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-images-wrapped img {
+    width: 90%;
+    padding-bottom: 5%;
+}
+/* end of work pages */
 
 
 /* Responsiveness */
