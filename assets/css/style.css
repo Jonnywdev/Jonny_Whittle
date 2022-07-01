@@ -393,10 +393,6 @@ nav {
     color: #000;
 }
 
-.contact-content {
-
-}
-
 
 /* end of contact */
 
@@ -672,6 +668,11 @@ nav {
 
 .work-wrapped img {
     width: 95%;
+}
+
+.work-wrapped a {
+    color: #000;
+    text-decoration: underline;
 }
 
 
