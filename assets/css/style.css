@@ -1036,6 +1036,7 @@ nav {
 
     .main-navigation ul li {
         padding: 0 20px;
+        width: 100%;
     }
 
     .show-nav {
