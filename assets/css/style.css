@@ -1055,9 +1055,25 @@ nav {
         column-count: 3;
     }
 
+    .g-h-s-title-one {
+        margin: 5% 0;
+    }
+
     
 
     /* cv */
+    .cv-header {
+        flex-direction: column-reverse;
+    }
+
+    .cv-header-wrapped {
+        text-align: center;
+    }
+
+    .cv-image-wrapped {
+        padding: 5% 4% 0 4%;
+    }
+
     .cv-header-wrapped h1 {
         font-size: 1.5rem;
     }
@@ -1065,10 +1081,6 @@ nav {
     .cv-header-wrapped h2 {
         font-size: 0.75rem;
         margin-top: 0;
-    }
-
-    .cv-image-wrapped {
-        width: 17%;
     }
 
     .social-content-cv a {
@@ -1079,6 +1091,14 @@ nav {
         font-size: 1.25rem;
     }
 
+    .g-h-s-title {
+        position: relative;
+        margin: 5% 8%;
+    }
+
+    .g-h-s-title h2 {
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 400px) {
