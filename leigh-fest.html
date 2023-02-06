@@ -4,188 +4,199 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/ab972f586c.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <script src="https://kit.fontawesome.com/ab972f586c.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/style.css" media="screen" type="text/css">
-    <title>Leigh Festival</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+    <title>Jonny Whittle</title>
 </head>
 <body>
-    <aside class="sidebar">
-        <div class="sidebar-inner">
-            <!-- top part with my picture and name -->
-            <a href="index.html" class="my-avatar-wrapped">
-                <div class="my-avatar">
-                    <img src="assets/images/avatar.jpeg" alt="me" class="avatar">
-                </div>
-                <div class="my-content">
-                    <h1 class="my-title">Jonny Whittle</h1>
-                    <h2 class="my-subtitle">FRONT-END DEVELOPER</h2>
-                </div>
-            </a>
-            <!-- Navigation -->
-            <nav class="main-navigation">
-                <div class="navigation-wrapped">
-                    <ul>
-                        <li><a href="portfolio.html">PORTFOLIO</a></li>
-                        <li><a href="my-cv.html">CV</a></li>
-                        <li><a href="contact.html">CONTACT ME</a></li>
-                    </ul>
-                </div>  
-            </nav>
-            <!-- Contact section -->
-            <div class="social-block">
-                <div class="social-title">Get in touch</div>
-                <div class="social-content">
-                    <a href="mailto:jonny.whittle@sky.com"><i class="fa-solid fa-square-envelope"></i></a>
-                    <a href="https://github.com/Jonnywdev" target="_blank"><i class="fa fa-github-square"></i></a>
-                    <a href="https://www.linkedin.com/in/jonny-whittle/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-                    <a href="tel:07710811554" target="_blank"><i class="fa-solid fa-square-phone"></i></a>
-                    <a href="https://www.facebook.com/jonny.whittle.5" target="_blank"><i class="fa fa-facebook-square"></i></a>
-                </div>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container small-nav">
+            <a class="navbar-brand" href="index.html">Jonny Whittle</a>
+            <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"><i class="fa-solid fa-burger"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link navl-left" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navl-left" href="my-work.html">My work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.php">Contact Me</a>
+                </li>
             </div>
         </div>
-    </aside>
+    </nav>
 
-    <!-- Smaller screens -->
-    <aside class="sidebar-small">
-            <!-- Navigation -->
-            <nav class="main-navigation">
-                <div class="navigation-wrapped">
-                    <ul>
-                        <li><a href="portfolio.html">PORTFOLIO</a></li>
-                        <li><a href="my-cv.html">CV</a></li>
-                        <li><a href="contact.html">CONTACT ME</a></li>
-                    </ul>
-                </div>  
-            </nav>
-            <!-- Contact section -->
-            <div class="social-block">
-                <div class="social-title">Get in touch</div>
-                <div class="social-content">
-                    <a href="mailto:jonny.whittle@sky.com"><i class="fa-solid fa-square-envelope"></i></a>
-                    <a href="https://github.com/Jonnywdev" target="_blank"><i class="fa fa-github-square"></i></a>
-                    <a href="https://www.linkedin.com/in/jonny-whittle/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-                    <a href="tel:07710811554" target="_blank"><i class="fa-solid fa-square-phone"></i></a>
-                    <a href="https://www.facebook.com/jonny.whittle.5" target="_blank"><i class="fa fa-facebook-square"></i></a>
-                </div>
+    <!-- work page  -->
+    <div class="container container-margin-y work-page">
+        <div class="row jc mt-5">
+            <div class="col text-left">
+                <h1 class="main-header mb-2">Leigh Festival</h1>
             </div>
-    </aside>
-    <!-- mobile screens -->
+        </div>
+        <div class="work-container">
+            <div class="work-desc">
+                <p class="pb-4">
+                    For those of you that don't know what Leigh Festival is, 
+                    for a couple of years a friend and I wanted to create an 
+                    inclusive festival for the people of Leigh and the 
+                    surrounding area. 
+                
+                    Last year we hosted our first festival which included a 
+                    huge bar with 36 different beers, lagers, ciders as well 
+                    as a cocktail bar! Throughout the festival we had live music 
+                    from local artists, mixed ability rugby, a sevens rugby 
+                    tournament and much more.
+                    <br>
+                    All money raised is given to Leigh RUFC to help them continue 
+                    running and provide the chance for people from aged 5 - 40+ to 
+                    participate in Rugby Union.
+                </p>
+                <a href="" class="black-btn" target="_blank">Check out the website</a>
+            </div>
+            <div class="work-img">
+                <img src="assets/images/IMG_3372.jpg" alt="">
+            </div>
+        </div>
+    </div>
 
-    <aside class="sidebar-mobile">
-        <div class="sidebar-inner">
-            <nav class="main-navigation">
-                <div class="sidebar-extendable">
-
-                    <!-- Contact section -->
-                    <div class="navigation-extended">
-
-
-                        <div class="social-block">
-                            <div class="social-title">Get in touch</div>
-                            <div class="social-content">
-                                <a href="mailto:jonny.whittle@sky.com"><i class="fa-solid fa-square-envelope"></i></a>
-                                <a href="https://github.com/Jonnywdev" target="_blank"><i class="fa fa-github-square"></i></a>
-                                <a href="https://www.linkedin.com/in/jonny-whittle/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-                                <a href="tel:07710811554" target="_blank"><i class="fa-solid fa-square-phone"></i></a>
-                                <a href="https://www.facebook.com/jonny.whittle.5" target="_blank"><i class="fa fa-facebook-square"></i></a>
+    <div class="container container-margin-y">
+        <div class="work-container">
+            <div class="work-desc">
+                <h3>Key Responsibilities</h3>
+                <p>
+                    - Manage a team of volunteers in planning and throughout the weekend.
+                    <br>
+                    - Create and manage social media and printed artwork e.g. Banners.
+                    <br>
+                    - Create an informative website for the festival.
+                </p>
+                <br><br>
+                <h3>Key Outcomes</h3>
+                <p>
+                    - Over 2500 people attended over the weekend at our first ever event (2022).
+                    <br>
+                    - We made £17,000 for the Rugby Club, which went into supporting the teams with training and kits.
+                    <br>
+                    - I met a lot of influencial people in big companies in the area and in wigan council, adding to my network.
+                </p>
+            </div>
+            <!-- image carosell -->
+            <div class="work-img">
+                <div class="slide-container swiper">
+                    <div class="slide-content">
+                        <div class="card-wrapper swiper-wrapper">
+                            <div class="card swiper-slide swiper-work-slide lr-card">
+                                <div class="card-content">
+                                    <div class="card-img-top image-wrapper">
+                                        <a href="assets/images/work-images/leighfest/lf-1.png" target="_blank">
+                                            <img src="assets/images/work-images/leighfest/lf-1.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- new card -->
+                            <div class="card swiper-slide swiper-work-slide lr-card">
+                                <div class="card-content">
+                                    <div class="card-img-top image-wrapper">
+                                        <a href="assets/images/work-images/leighfest/lf-2.png" target="_blank">
+                                            <img src="assets/images/work-images/leighfest/lf-2.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- new card -->
+                            <div class="card swiper-slide swiper-work-slide lr-card">
+                                <div class="card-content">
+                                    <div class="card-img-top image-wrapper">
+                                        <a href="assets/images/work-images/leighfest/lf-3.png" target="_blank">
+                                            <img src="assets/images/work-images/leighfest/lf-3.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- new card -->
+                            <div class="card swiper-slide swiper-work-slide lr-card">
+                                <div class="card-content">
+                                    <div class="card-img-top image-wrapper">
+                                        <a href="assets/images/work-images/leighfest/lf-4.png" target="_blank">
+                                            <img src="assets/images/work-images/leighfest/lf-4.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- new card -->
+                            <div class="card swiper-slide swiper-work-slide lr-card">
+                                <div class="card-content">
+                                    <div class="card-img-top image-wrapper">
+                                        <a href="assets/images/work-images/leighfest/lf-5.png" target="_blank">
+                                            <img src="assets/images/work-images/leighfest/lf-5.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- new card -->
+                            <div class="card swiper-slide swiper-work-slide lr-card">
+                                <div class="card-content">
+                                    <div class="card-img-top image-wrapper">
+                                        <a href="assets/images/work-images/leighfest/lf-6.png" target="_blank">
+                                            <img src="assets/images/work-images/leighfest/lf-6.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-                        <a href="#" class="navigation-button" id="toggle">
-                            <i class="fa fa-bars"></i>
-                        </a>
                     </div>
-
-                    <!-- Navigation -->
-                    <div class="extend-nav" id="nav-extend">
-                        <div class="navigation-wrapped">
-                            <ul>
-                                <li><a href="portfolio.html">PORTFOLIO</a></li>
-                                <li><a href="my-cv.html">CV</a></li>
-                                <li><a href="contact.html">CONTACT ME</a></li>
-                            </ul>
-                        </div> 
+                    <!-- controls -->
+                    <div class="swiper-controls jc flex">
+                        <div class="swiper-button-next swiper-navBtn work-next"><i class="fa-solid fa-arrow-left text-white"></i></div>
+                        <div class="swiper-button-prev swiper-navBtn work-prev"><i class="fa-solid fa-arrow-right text-white"></i></div>
+                        <div class="swiper-pagination"></div>
                     </div>
-
-
-                </div>      
-            </nav>
-        </div>
-    </aside>
-
-    <!-- porfolio -->
-    <section class="generic-section">
-        <div class="site-is-wrapped">
-            <div class="site-inner">
-                <div class="g-h-s-title">
-                    <h1>Leigh Festival</h1>
-                    <h2 class="seccond-header">
-
-                    </h2>
-
-                </div>
-                <div class="work-wrapped">
-                    <p>Leigh Festival was created by me and a friend, we are both on the committee at Leigh RUFC, 
-                        where the event was held. We wanted to host a fun event for the whole community. We had Live music, 
-                        from local bands, singles and DJ's. A mixed ability rugby match, sevens tournament, local food vans 
-                        and a beer festival.
-                        <br><br>
-                        I decided to make a website to help with advertising, the website included information about all the activities, 
-                        the menu for all the drinks we had at the beer festival and much more! I built the website up from scratch, which helped me to make 
-                        it into a unique and custom website. There were some issues with the site, because I didn't build the site from mobile size first 
-                        I had some issues with responsiveness. I am going to fix the issue in the new website, I'm going to need to change everything on the 
-                        website anyway so I have decided to completely restart it. Therefore the old website will be live until around october. 
-                        <b><a href="https://leighfestival.uk/" target="_blank">Click here</a></b> to view the website.
-
-                        <br><br>
-                        <b>My Key Responsibilities</b>
-                        <br><br>
-                        - Create a simple to use website people could use to find all information about the festival.
-                        <br><br>
-                        - Manage a team of volunteers in planning and throughout the weekend.
-                        <br><br>
-                        - Create and manage social media and printed artwork e.g. Banners.
-                        <br><br>
-                        We are now working on making next year even bigger!
-
-                        <br><br>
-                        <b>Technology Used</b>
-                        <br><br>
-                        - HTML
-                        <br><br>
-                        - CSS
-                        <br><br>
-                        - JAVASCRIPT
-                        <br><br>
-                        - AWS
-                        <br><br>
-                        
-                        <br><br>
-                    
-                    </p>
-
-                    <div class="work-images-wrapped">
-                        <img src="assets/images/work-images/leighfest-main.png" alt="">
-                        <img src="assets/images/work-images/leighfest-1.png" alt="">
-                        <img src="assets/images/work-images/leighfest-2.png" alt="">
-                        <img src="assets/images/work-images/leighfest-3.png" alt="">
-                        <img src="assets/images/work-images/leighfest-4.png" alt="">
-                        <img src="assets/images/work-images/leighfest-5.png" alt="">
-                        <img src="assets/images/work-images/leighfest-6.png" alt="">
-                        <img src="assets/images/work-images/leighfest-7.png" alt="">
-                        <img src="assets/images/work-images/leighfest-8.png" alt="">
-                    </div> 
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
-
-
-
-    <script src="assets/scripts/script.js"></script>
+    <!-- My Work -->
+    <div class="container container-margin-y">
+        <div class="row jc mt-3">
+            <div class="col text-center">
+                <h1 class="main-header mb-2">Check out my other work!</h1>
+            </div>
+        </div>
+        <!-- work grid -->
+        <div class="work-grid-container">
+            <a href="avandor.html"><div class="grid-item">
+                <img src="assets/images/avandor-hero.png" alt="">
+            </div></a>
+            <a href="george-shaw.html"><div class="grid-item">
+                <img src="assets/images/george-shaw-hero.png" alt="">
+            </div></a>
+            <a href="leigh-rufc.html"><div class="grid-item">
+                <img src="assets/images/leigh-rufc-hero.png" alt="">
+            </div></a>
+            <a href="customasks.html"><div class="grid-item">
+                <img src="assets/images/customasks-hero.png" alt="">
+            </div></a>
+        </div>
+    </div>
+    <!-- Javascript -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper-script.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
-</html> 
+</html>
