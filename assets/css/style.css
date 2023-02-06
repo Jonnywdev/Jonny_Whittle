@@ -331,6 +331,16 @@ nav {
     color: #a8a8a8;
 }
 
+.my-images-wrapped {
+    width: 50%;
+}
+
+.contact-wrapped {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
 /* work page */
 .work-page {
     margin-top: 6rem !important;
