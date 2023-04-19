@@ -425,6 +425,24 @@ nav {
     right: 3%;
     top: 45%;
 }
+
+/* custom lancs buttons */
+.swiper-lancs-slide {
+    height: auto !important;
+}
+
+#lans-prev-left {
+    position: absolute;
+    right: 2.5%;
+    top: 45%;
+}
+
+#lans-prev-right {
+    position: absolute;
+    left: 2.5%;
+    top: 45%;
+}
+
 /* responsiveness */
 
 @media (max-width: 1200px) { 
@@ -497,7 +515,18 @@ nav {
         right: 30%;
     }
 
-    /* contact */
+    /* lancs */
+    #lans-prev-left {
+        position: absolute;
+        right: 2.5%;
+        top: 35%;
+    }
+
+    #lans-prev-right {
+        position: absolute;
+        left: 2.5%;
+        top: 35%;
+    }
 
 }
 
