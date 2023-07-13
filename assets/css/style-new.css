@@ -30,12 +30,6 @@ a {
     color: #909090;
 }
 
-.space-around {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
 /* nav */
 
 .navbar {
