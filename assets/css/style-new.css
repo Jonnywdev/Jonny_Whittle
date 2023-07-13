@@ -467,6 +467,18 @@ footer {
     font-size: 5rem;
 }
 
+/* work details */
+.work-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
 /* responsiveness */
 
