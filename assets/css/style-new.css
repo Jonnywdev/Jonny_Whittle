@@ -8,6 +8,7 @@ body {
 /* generic */
 a {
     text-decoration: none;
+    transition: all .5s;
 }
 
 .extra-margin {
@@ -52,6 +53,20 @@ a {
 .grey-text {
     color: #909090;
 }
+
+.get-in-touch {
+    color: #fff;
+    background: #000;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.get-in-touch:hover {
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+}
+
+
 
 /* nav */
 
@@ -101,7 +116,7 @@ a {
 }
 
 .container-top {
-    padding: 40px 0;
+    padding-top: 40px;
 }
 
 .its-me {
@@ -347,6 +362,10 @@ a {
         display: none;
     }
 
+    .process {
+        margin-bottom: 2rem;
+    }
+
 }
 
 @media (max-width: 420px) {
@@ -358,4 +377,9 @@ a {
     .navbar-brand {
         width: 15%;
     }
+
+    .process {
+        margin-bottom: 5rem;
+    }
+
 }
