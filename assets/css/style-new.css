@@ -14,6 +14,11 @@ a {
     transition: all .5s;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
 .hover-white:hover {
     color: #fff;
 }
@@ -102,3 +107,72 @@ a {
     font-size: 12px;
 }
 
+.services .sm-para {
+    color: #8F9294;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+
+/* responsiveness */
+
+@media (max-width: 992px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        text-align: center;
+        padding: 10px 0;
+        border-bottom: 1px solid #707070;
+    }
+
+    .nav-btn {
+        border: none;
+    }
+
+    .main-header {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        width: 7%;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        width: 10%;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .main-header {
+        text-align: center;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .its-me {
+        padding-top: 20px;
+        width: 60%;
+    }
+}
+
+@media (max-width: 420px) {
+    .col {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .navbar-brand {
+        width: 15%;
+    }
+}
