@@ -10,6 +10,11 @@ a {
     text-decoration: none;
 }
 
+.extra-margin {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
 .hover-white {
     transition: all .5s;
 }
@@ -149,7 +154,7 @@ a {
 }
 /* responsiveness */
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .nav {
         flex-direction: column;
     }
@@ -172,6 +177,10 @@ a {
 @media (max-width: 768px) {
     .navbar-brand {
         width: 7%;
+    }
+
+    .accordion-button {
+        font-size: 15px;
     }
 }
 
@@ -196,6 +205,25 @@ a {
         padding-top: 20px;
         width: 60%;
     }
+
+    .services p {
+        text-align: left;
+    }
+
+    .services h2 {
+        text-align: left;
+    }
+
+    .accordion-body {
+        text-align: left;
+    }
+
+    .extra-margin {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+
 }
 
 @media (max-width: 420px) {
