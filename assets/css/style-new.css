@@ -111,10 +111,42 @@ a {
     color: #8F9294;
     font-weight: 500;
     font-size: 15px;
+    margin: 0;
 }
 
+.services h2 {
+    font-weight: 300;
+}
 
+/* accordion */
+.accordion-title {
+    padding-left: 30px !important;
+}
 
+.accordion-button {
+    font-size: 20px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: none
+}
+
+.accordion-body {
+    padding-left: 60px;
+}
 /* responsiveness */
 
 @media (max-width: 992px) {
