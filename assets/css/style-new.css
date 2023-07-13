@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* generic */
+a {
+    text-decoration: none;
+}
+
+.hover-white {
+    transition: all .5s;
+}
+
+.hover-white:hover {
+    color: #fff;
+}
+
+.off-white {
+    color: #D5D5D5;
+}
+
+.black {
+    color: #000;
+}
+
+.grey-text {
+    color: #909090;
+}
+
+.space-around {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* nav */
+
+.navbar {
+    background: #000;
+    padding: 20px;
+}
+
+.nav-item a {
+    color: #D5D5D5;
+    transition: all .5s;
+}
+
+.nav-item a:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    width: 5%;
+}
+
+.navbar-brand img {
+    max-width: 100%;
+}
+
+.navbar-toggler-icon {
+    color: #D5D5D5;
+}
+
+.nav-btn {
+    border: 1px solid #D5D5D5;
+    border-radius: 5px;
+    background: #000;
+    color: #D5D5D5;
+    transition: all .5s;
+}
+
+.nav-btn:hover {
+    background: #D5D5D5;
+    color: #000 !important;
+}
+
+/* landing screen */
+.black-bg {
+    background: #000 !important;
+}
+
+.container-top {
+    padding: 40px 0;
+}
+
+.its-me {
+    width: 100%;
+}
+
+.main-header {
+    font-weight: 300;
+    font-size: 75px;
+}
+
+.circle-btn {
+    border: 1px solid #D5D5D5;
+    background: #2E2E2E;
+    padding: 7px 10px;
+    border-radius: 50px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.sm-text {
+    font-size: 12px;
+}
+
