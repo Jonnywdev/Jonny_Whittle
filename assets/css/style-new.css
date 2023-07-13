@@ -22,6 +22,7 @@ a {
 .row {
     display: flex;
     flex-direction: row;
+    --bs-gutter-x: 0;    
 }
 
 .hover-white:hover {
