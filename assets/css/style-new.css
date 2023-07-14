@@ -109,6 +109,7 @@ a {
     border: 1px solid #fff;
     border-radius: 5px;
     padding: 15px;
+    width: fit-content;
 }
 
 .get-in-touch-white:hover {
@@ -519,13 +520,68 @@ footer {
 .how-i-work-wrapped {
     display: flex;
     flex-direction: row;
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
 }
 
 .how-i-work-wrapped .number {
     margin-right: 1rem;
 }
 
+.how-i-work-wrapped h5 {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.about-me-wrapped {
+    background: #000;
+    border-radius: 10px;
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me-wrapped img {
+    width: 60%;
+}
+
+.about-me-img {
+    max-width: 100%;
+}
+
+.image-about {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.align-center {
+    justify-content: center;
+}
+
+.social-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.name {
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.name-socials {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.about-me-wrapped h3 {
+    font-size: 35px;
+}
+
+.about-me-wrapped p {
+    font-weight: 400;
+}
 /* responsiveness */
 
 @media (max-width: 991px) {
@@ -739,6 +795,51 @@ footer {
     .project-images {
         margin-bottom: 2rem !important;
     }
+
+    #vision {
+        font-size: 3rem;
+    }
+
+    .how-i-work h4 {
+        font-size: 2rem;
+    }
+
+    .how-i-work {
+        text-align: left !important;
+    }
+
+    .how-i-work-wrapped {
+        flex-direction: column;
+    }
+
+    .how-i-work-wrapped h5 {
+        font-size: 25px;
+    }
+
+    .image-about {
+        justify-content: center;
+    }
+
+    .name-socials {
+        margin-bottom: 2rem;
+    }
+
+    .about-me-wrapped {
+        text-align: left !important;
+    }
+
+    .about-me-wrapped h3 {
+        margin-bottom: 2rem;
+    }
+
+    .name-socials {
+        margin: 0 0 2rem 0 !important;
+    }
+
+    .about-me-wrapped img {
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 420px) {
