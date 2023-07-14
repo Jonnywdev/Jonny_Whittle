@@ -582,6 +582,18 @@ footer {
 .about-me-wrapped p {
     font-weight: 400;
 }
+
+.getintouch {
+    width: 100%;
+}
+
+.getintouch img{
+    width: 50%;
+}
+
+.contact {
+    
+}
 /* responsiveness */
 
 @media (max-width: 991px) {
