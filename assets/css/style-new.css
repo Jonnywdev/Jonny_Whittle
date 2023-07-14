@@ -480,6 +480,52 @@ footer {
     text-align: center;
 }
 
+.project-images {
+    margin: 0 auto;
+}
+
+/* about me */
+.circle-overlay {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background: #000;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto 1rem auto;
+}
+
+.circle-overlay img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#vision {
+    font-size: 5rem;
+}
+
+.how-i-work {
+    border: 1px solid #D5D5D5;
+    border-radius: 25px;
+    padding: 80px 40px;
+}
+
+.how-i-work h4 {
+    font-size: 3rem;
+}
+
+.how-i-work-wrapped {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+}
+
+.how-i-work-wrapped .number {
+    margin-right: 1rem;
+}
+
 /* responsiveness */
 
 @media (max-width: 991px) {
@@ -682,6 +728,16 @@ footer {
     .text-wrapped {
         width: 80%;
         margin-bottom: 2rem;
+    }
+
+    .work-details {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-row-gap: 20px;
+    }
+
+    .project-images {
+        margin-bottom: 2rem !important;
     }
 }
 
