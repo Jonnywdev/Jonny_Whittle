@@ -588,12 +588,33 @@ footer {
 }
 
 .getintouch img{
-    width: 50%;
+    width: 100%;
 }
 
-.contact {
-    
+.contact-me small {
+    font-size: 15px;
 }
+
+.lgit-title {
+    font-size: 70px;
+    width: 60%;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px 15px;
+    background: #2E2E2E;
+    border: 1px solid #D5D5D5;
+    border-radius: 5px;
+    color: #909090;
+    font-size: 15px;
+}
+
+textarea {
+    height: 150px;
+}
+
+
 /* responsiveness */
 
 @media (max-width: 991px) {
