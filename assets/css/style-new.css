@@ -46,7 +46,7 @@ a {
 }
 
 .d-none {
-    display: block !important;
+    display: none !important;
 }
 
 .row {
@@ -205,6 +205,15 @@ a {
     border: 1px solid #D5D5D5;
     background: #2E2E2E;
     padding: 6px 12px;
+    border-radius: 50px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.circle-btn-sdown {
+    border: 1px solid #D5D5D5;
+    background: #2E2E2E;
+    padding: 6px 10px;
     border-radius: 50px;
     color: #fff;
     margin-right: 5px;
